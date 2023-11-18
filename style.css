@@ -1,0 +1,16 @@
+.grid-container{
+    display: grid;
+    grid-row-gap: 70px ;
+    grid-column-gap: 90px;
+    grid-template-columns: repeat(3,300px);
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    height: 300px;
+    width: 300px;
+}
+h1{
+    margin-left: 38%;
+}
